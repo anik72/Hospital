@@ -41,12 +41,7 @@ public class PacientTest {
      */
     @Test
     public void testGetObj() {
-        System.out.println("getObj");
-        Pacient expResult = null;
-        Pacient result = Pacient.getObj();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -54,11 +49,8 @@ public class PacientTest {
      */
     @Test
     public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        Pacient.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       System.out.println("Good");
+       new PacientEdit().setVisible(true);
     }
     
 }

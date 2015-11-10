@@ -23,9 +23,9 @@ public class PacientEdit extends javax.swing.JFrame {
 
     Object s1, o1;
 
-    private static PacientEdit obj = null;
+    public static PacientEdit obj = null;
 
-    private PacientEdit() {
+    public PacientEdit() {
         initComponents();
         setResizable(false);
         setLocationRelativeTo(null);

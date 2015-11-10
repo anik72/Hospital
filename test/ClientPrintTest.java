@@ -41,12 +41,7 @@ public class ClientPrintTest {
      */
     @Test
     public void testGetObj() {
-        System.out.println("getObj");
-        ClientPrint expResult = null;
-        ClientPrint result = ClientPrint.getObj();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -55,10 +50,7 @@ public class ClientPrintTest {
     @Test
     public void testMain() {
         System.out.println("main");
-        String[] args = null;
-        ClientPrint.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        new ClientPrint().setVisible(true);
     }
     
 }

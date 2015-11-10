@@ -41,11 +41,8 @@ public class HomeTest {
      */
     @Test
     public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        Home.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        System.out.println("Good");
+        new Home().setVisible(true);
     }
     
 }

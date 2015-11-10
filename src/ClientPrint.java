@@ -34,7 +34,7 @@ public class ClientPrint extends javax.swing.JFrame {
 
     private static ClientPrint obj = null;
 
-    private ClientPrint() {
+    public ClientPrint() {
         initComponents();
         setResizable(false);
         setLocationRelativeTo(null);
